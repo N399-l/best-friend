@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Best Friend 🎀</title>
+
+    <style>
+        body {
+            background: #ffe6f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #d6336c;
+            font-size: 45px;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+        }
+
+        button {
+            background: #d6336c;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #message {
+            display: none;
+            margin-top: 30px;
+            font-size: 22px;
+            color: #d6336c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hey Bestie 🥺🎀</h1>
+
+    <p>I made this little website just for you 💗</p>
+
+    <button onclick="showMessage()">Click me 👀</button>
+
+    <p id="message">
+    I'm really sorry for what I did. 🥺<br><br>
+    I know I hurt you, and I genuinely regret it.
+    I never meant to make you feel bad.
+    You mean a lot to me, and I truly hope you can forgive me. ❤️
+<div style="margin-top: 25px;">
+    <p>
+        I really don't want one mistake to come between us. 🥺<br>
+        I miss our normal conversations, our stupid jokes, and just being us. 🫶<br>
+        Can we please start fresh? ❤️
+    </p>
+
+    <button onclick="forgiveMe()">Can we be okay again? 🥺</button>
+
+    <p id="forgive" style="display:none;">
+        Thank you 🥹❤️ I promise I'll try to do better. Now come here, bestie 🎀
+    </p>
+</div>
+</p>
+   <script>
+function showMessage() {
+    document.getElementById("message").style.display = "block";
+}
+
+function forgiveMe() {
+    document.getElementById("forgive").style.display = "block";
+}
+</script>
+</body>
+</html>
